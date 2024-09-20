@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome Admin</title>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('accessgranted.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	position: relative; /* Add this line */
+}
+
+h1 {
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #b59c22;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'sans-serif';
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #096d0c;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 300px;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+</style>
+</head>
+<body>
+	<h1>Welcome Admin</h1>
+	<button onclick="enter()">Enter</button>
+
+	<script>
+        function enter() {
+            window.location.href = "admin_actions.html"; // Redirect to admin_actions.html
+        }
+    </script>
+</body>
+</html>

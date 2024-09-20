@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>DBMSMINIPROJECT</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
+		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/accessgranted.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/OneDrive/Desktop/dbms own/accessgranted.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/adminhome.gif</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/adminhome.gif</location>
+		</link>
+		<link>
+			<name>src/main/webapp/casedetails.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/OneDrive/Desktop/dbms own/casedetails.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/caseofficer.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/caseofficer.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/dbmsown.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/OneDrive/Desktop/dbms own/dbmsown.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/deletecase.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/deletecase.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/evidence.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/evidence.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/evidenceimg.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/evidenceimg.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/loginimg.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/loginimg.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/officerhome.gif</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/officerhome.gif</location>
+		</link>
+		<link>
+			<name>src/main/webapp/suspects.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/OneDrive/Desktop/dbms own/suspects.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/viewcases.jpg</name>
+			<type>1</type>
+			<location>C:/Users/mohmmed raihaan/Downloads/view cases.jpg</location>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1721820574742</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forensic Science Project</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="background-image">
+		<!-- Background image related to forensic science -->
+		<div class="overlay-text">Forensic Evidence Maintenance</div>
+	</div>
+	<div class="login-container">
+		<div class="login-form">
+			<div class="button-container">
+				<button id="adminLoginBtn">Admin Login</button>
+				<button id="officerLoginBtn">Officer Login</button>
+			</div>
+		</div>
+	</div>
+	<script>
+    document.getElementById("adminLoginBtn").onclick = function() {
+        window.location.href = "adminlogin.jsp";
+    };
+    
+    document.getElementById("officerLoginBtn").onclick = function() {
+        window.location.href = "officerlogin.jsp";
+    };
+</script>
+</body>
+</html>

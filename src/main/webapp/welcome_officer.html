@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome Officer</title>
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url('accessgranted.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	position: absolute;
+	top: 70px; /* Adjust this value to position the text vertically */
+	left: 50%; /* Center the text horizontally */
+	transform: translateX(-50%); /* Center the text horizontally */
+	color: #b59c22; /* White text color */
+	font-size: 60px; /* Increased font size */
+	font-weight: bold; /* Bold font */
+	font-family: 'sans-serif'; /* Change font family */
+	text-align: center;
+	width: 100%;
+	z-index: 1; /* Ensure the text is above the background image */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #096d0c;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 300px;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+</style>
+</head>
+<body>
+	<h1>Welcome Officer</h1>
+	<button onclick="enter()">Enter</button>
+
+	<script>
+        function enter() {
+        	window.location.href = 'officer_actions.html'        }
+    </script>
+</body>
+</html>
