@@ -1,7 +1,6 @@
 ﻿# Forensic-Evidence-Vault
-Forensic Evidence Maintenance System
-Project Overview
-The Forensic Evidence Maintenance System is a Java-based web application designed to manage forensic evidence details related to criminals and suspects. Built using Java, JSP, and JDBC technologies, this system aims to streamline the handling, storage, and retrieval of crucial forensic data, ensuring efficient management for law enforcement and forensic teams.
+
+The Forensic Evidence vault is a Java-based web application designed to manage forensic evidence details related to criminals and suspects. Built using Java, JSP, and JDBC technologies, this system aims to streamline the handling, storage, and retrieval of crucial forensic data, ensuring efficient management for law enforcement and forensic teams.
 
 Key Features
 Role-Based Login System: Users have different login types, each providing access to specific functionalities based on their role. This includes investigators, forensic specialists, and administrators.
